@@ -1,0 +1,97 @@
+PS C:\Users\곽소현> ibmcloud login
+API 엔드포인트: https://cloud.ibm.com
+지역: us-south
+
+Email> dkswpffkrhd@gmail.com
+
+Password>
+인증 중...
+확인
+
+대상 지정된 계정 Sohyun Kwak's Account (1b4c10489a5145d68ed8a16a226889db)
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              dkswpffkrhd@gmail.com
+계정:                Sohyun Kwak's Account (1b4c10489a5145d68ed8a16a226889db)
+리소스 그룹:         대상으로 지정된 리소스 그룹이 없습니다.'C:\Program Files\IBM\Cloud\bin\ibmcloud.exe target -g RESOURCE_GROUP' 명령을 사용하십시오.
+CF API 엔드포인트:
+조직:
+영역:
+
+IBM에서는 IBM Cloud CLI 개선에 도움을 주는 사용 통계를 수집하고자 합니다.
+이 데이터는 절대 IBM 외부로 공유되지 않습니다.
+더 자세히 알아보려면 IBM 개인정보처리방침(https://www.ibm.com/privacy)을 참조하십시오.
+'C:\Program Files\IBM\Cloud\bin\ibmcloud.exe config --usage-stats-collect [true | false]'를 실행하면 사용 데이터 수집 을 사용 또는 사용 안함으로 설정할 수 있습니다.
+
+IBM에 사용 통계를 전송하시겠습니까? [y/n]> n
+
+새 버전 1.2.3을(를) 사용할 수 있습니다.
+릴리스 정보: https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/tag/v1.2.3
+팁: 업데이트 확인을 사용 안함으로 설정하려면 'C:\Program Files\IBM\Cloud\bin\ibmcloud.exe config --check-version=false' 명령을 사용하십시오.
+
+업데이트하시겠습니까? [y/N] > n
+PS C:\Users\곽소현> ibmcloud resource groups
+dkswpffkrhd@gmail.com(으)로 1b4c10489a5145d68ed8a16a226889db 계정에서 모든 리소스 그룹 검색 중...
+확인
+이름        ID                                 기본 그룹   상태
+MyFirstRG   7dd48c08d64f4ed08250da12a9d0578f   true        ACTIVE
+PS C:\Users\곽소현> ibmcloud target -g MyFirstRG
+대상 지정된 리소스 그룹 MyFirstRG
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              dkswpffkrhd@gmail.com
+계정:                Sohyun Kwak's Account (1b4c10489a5145d68ed8a16a226889db)
+리소스 그룹:         MyFirstRG
+CF API 엔드포인트:
+조직:
+영역:
+PS C:\Users\곽소현> ibmcloud target -o KonyangBluemix -s test
+대상 지정된 Cloud Foundry(https://api.us-south.cf.cloud.ibm.com)
+
+실패
+조직을 가져올 수 없음:
+Organization 'KonyangBluemix'을(를) 찾을 수 없습니다.
+
+PS C:\Users\곽소현> ibmcloud target --cf
+대상 지정된 Cloud Foundry(https://api.us-south.cf.cloud.ibm.com)
+
+대상 지정된 조직 dkswpffkrhd@gmail.com
+
+
+영역 선택(또는 Enter를 눌러 건너뜀):
+1. dev
+2. test
+번호 입력> 2
+대상 지정된 영역 test
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              dkswpffkrhd@gmail.com
+계정:                Sohyun Kwak's Account (1b4c10489a5145d68ed8a16a226889db)
+리소스 그룹:         MyFirstRG
+CF API 엔드포인트:   https://api.us-south.cf.cloud.ibm.com(API 버전: 2.153.0)
+조직:                dkswpffkrhd@gmail.com
+영역:                test
+PS C:\Users\곽소현> ibmcloud target -o dkswpffkrhd@gmail.com -s test
+대상 지정된 조직 dkswpffkrhd@gmail.com
+
+대상 지정된 영역 test
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              dkswpffkrhd@gmail.com
+계정:                Sohyun Kwak's Account (1b4c10489a5145d68ed8a16a226889db)
+리소스 그룹:         MyFirstRG
+CF API 엔드포인트:   https://api.us-south.cf.cloud.ibm.com(API 버전: 2.153.0)
+조직:                dkswpffkrhd@gmail.com
+영역:                test
+PS C:\Users\곽소현>
