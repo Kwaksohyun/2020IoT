@@ -1,0 +1,13 @@
+{
+  "apikey": "hOlQNXVZ2EkjVb6NnexrWRNayh1FyD7RcsQDAbZyroGU",
+  "cos_hmac_keys": {
+    "access_key_id": "7c7876dea7e248318a862fe813c8f6ab",
+    "secret_access_key": "7e980d4938e3fd7ffbcfc587f1152de6ff8006ee6570108c"
+  },
+  "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
+  "iam_apikey_description": "Auto-generated for key 7c7876de-a7e2-4831-8a86-2fe813c8f6ab",
+  "iam_apikey_name": "My 오브젝트 인증 정보",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/1b4c10489a5145d68ed8a16a226889db::serviceid:ServiceId-de2ac8d5-3dcc-492b-9ddd-17347b9ecb36",
+  "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/1b4c10489a5145d68ed8a16a226889db:1610a5a0-60fc-4b72-abc3-ea3752355dba::"
+}
