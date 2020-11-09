@@ -1,0 +1,13 @@
+PS C:\Users\곽소현> aws --profile face --endpoint-url http://s3.us.cloud-object-storage.appdomain.cloud s3api head-object --bucket sohyun-konyang --key KakaoTalk_20201109_184521631A.jpg
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2020-11-09T15:28:30+00:00",
+    "ContentLength": 272976,
+    "ETag": "\"342bf79c39aea3e62ecabd3482ca6f5d\"",
+    "ContentType": "image/jpeg",
+    "Metadata": {
+        "work": "IBM"
+    }
+}
+
+PS C:\Users\곽소현>
