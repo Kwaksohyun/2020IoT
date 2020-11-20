@@ -1,0 +1,36 @@
+Microsoft Windows [Version 10.0.19041.630]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\곽소현>cd Bluemix2/Node.js/Course
+
+C:\Users\곽소현\Bluemix2\Node.js\Course>cd Unit-14
+
+C:\Users\곽소현\Bluemix2\Node.js\Course\Unit-14>npm run load-db
+
+> unit-14@1.0.0 load-db C:\Users\곽소현\Bluemix2\Node.js\Course\Unit-14
+> node ./utils/load-cloudant
+
+[2020-11-20T23:29:14.684] [INFO] default - 1605882554684:INFO: Connect success! Connected to DB: shopping_list
+[2020-11-20T23:29:14.698] [INFO] default - 1605882554698:INFO: mainline(): Initializing Cloudant... Done.
+[2020-11-20T23:29:14.799] [INFO] default - 1605882554799:INFO: mainline(): Script start at: 2020. 11. 20. 오후 11:29:14
+[2020-11-20T23:29:14.800] [INFO] default - 1605882554800:INFO: mainline(): Loading data for item...
+[2020-11-20T23:29:14.804] [INFO] default - 1605882554804:INFO: loadData(): Loading data files...
+[2020-11-20T23:29:14.807] [INFO] default - 1605882554807:INFO: loadData():readableStream.on(open): Opened file: ../data/Grocery_UPC_Database.csv
+[2020-11-20T23:29:14.856] [DEBUG] default - 1605882554856:DEBUG: Creating documents: 1-10000
+[2020-11-20T23:29:18.095] [DEBUG] default - 1605882558095:DEBUG: Creating documents: 10001-20000
+[2020-11-20T23:29:21.316] [DEBUG] default - 1605882561315:DEBUG: Creating documents: 20001-30000
+[2020-11-20T23:29:24.547] [DEBUG] default - 1605882564547:DEBUG: Creating documents: 30001-40000
+[2020-11-20T23:29:27.795] [DEBUG] default - 1605882567795:DEBUG: Creating documents: 40001-50000
+[2020-11-20T23:29:30.992] [DEBUG] default - 1605882570992:DEBUG: Creating documents: 50001-60000
+[2020-11-20T23:29:34.165] [DEBUG] default - 1605882574165:DEBUG: Creating documents: 60001-70000
+[2020-11-20T23:29:37.369] [DEBUG] default - 1605882577369:DEBUG: Creating documents: 70001-80000
+[2020-11-20T23:29:40.552] [DEBUG] default - 1605882580552:DEBUG: Creating documents: 80001-90000
+[2020-11-20T23:29:43.705] [DEBUG] default - 1605882583705:DEBUG: Creating documents: 90001-100000
+[2020-11-20T23:29:46.924] [DEBUG] default - 1605882586924:DEBUG: Creating documents: 100001-110000
+[2020-11-20T23:29:50.077] [INFO] default - 1605882590077:INFO: loadData():readableStream.on(close): Closed file: ../data/Grocery_UPC_Database.csv
+[2020-11-20T23:29:50.078] [DEBUG] default - 1605882590078:DEBUG: Creating documents: 110001-110436
+[2020-11-20T23:29:53.093] [INFO] default - 1605882593093:INFO: mainline(): Loading item data, done.
+[2020-11-20T23:29:53.094] [INFO] default - 1605882593093:INFO: Total item documents loaded: 110436
+[2020-11-20T23:29:53.097] [INFO] default - 1605882593097:INFO: mainline(): Script finished at: 2020. 11. 20. 오후 11:29:53
+
+C:\Users\곽소현\Bluemix2\Node.js\Course\Unit-14>
