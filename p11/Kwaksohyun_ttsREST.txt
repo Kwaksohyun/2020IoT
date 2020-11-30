@@ -1,0 +1,17 @@
+Microsoft Windows [Version 10.0.19041.630]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\곽소현>cd Bluemix2
+
+C:\Users\곽소현\Bluemix2>curl -X GET -u "apikey:2NYraBlsT2ip0ShmocydSFf1v2tv29KMFB5QOSC6cxCt" --output korean.wav "https://stream.watsonplatform.net/text-tospeech/api/v1/synthesize?accept=audio%2Fwav&text=%ED%8C%8C%EC%9D%BC%EC%9D%84%20%EB%B3%B4%EB%83%85%EB%8B%88%EB%8B%A4&voice=ko-KR_YunaVoice"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    35    0    35    0     0      8      0 --:--:--  0:00:04 --:--:--     7
+
+C:\Users\곽소현\Bluemix2>ls -l korean.wav
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 6E50-6246
+
+ C:\Users\곽소현\Bluemix2 디렉터리
+
+2020-11-30  오후 04:41                35 korean.wav
